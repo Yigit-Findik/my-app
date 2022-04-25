@@ -1,0 +1,62 @@
+.App {
+    background-color: rgb(253, 253, 253);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.poke-container {
+    //make space for each item
+    width: 200px;
+    height: 400px;
+}
+
+.enemypoke-container {
+    width: 200px;
+    height: 200px;
+}
+
+.lineup-container {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 475px;
+    display: flex;
+}
+
+.lineupenemy-container {
+    margin-top: 2.5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1300px;
+    height: 250px;
+    display: flex;
+}
+
+.space-pokemon {
+    //make space between each item
+    width: 25px;
+}
+
+.move-container {
+    width: 150px;
+    height: 200px;
+}
+
+.pull-left {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.pull-right {
+    float: right;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap div button {
+    width: 100%;
+}
